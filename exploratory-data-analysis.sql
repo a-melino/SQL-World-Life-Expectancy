@@ -94,3 +94,42 @@ FROM world_life_expectancy
 
 
 
+# Explore relationship between country status and life expectancy
+SELECT status, 
+	ROUND(AVG(`life expectancy`), 1) AS avg_life_expectancy,
+    COUNT(DISTINCT country) AS country_count
+FROM world_life_expectancy
+GROUP BY status
+;
+
+
+
+
+
+# Explore relationship between BMI and life expectancy, exclude 0's
+SELECT country, 
+	ROUND(AVG(`life expectancy`), 1) AS avg_life_expectancy,
+    ROUND(AVG(BMI), 1) as BMI
+FROM world_life_expectancy
+GROUP BY country
+HAVING BMI > 0
+ORDER BY BMI DESC
+;
+
+
+
+
+
+# Explore relationship between adult mortality and life expectancy
+# Use a rolling total for adult mortality, compare it to life expectancy
+SELECT country,
+	year,
+    `life expectancy`,
+    `adult mortality`,
+    SUM(`adult mortality`) OVER(PARTITION BY country ORDER BY year)
+FROM world_life_expectancy
+;
+
+
+
+
