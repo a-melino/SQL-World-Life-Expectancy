@@ -1,0 +1,182 @@
+country,avg_life_expectancy,BMI
+Kiribati,65.1,69.4
+Malta,80.4,66.2
+Qatar,77,65.6
+"Micronesia (Federated States of)",68.2,65.2
+Samoa,73.6,62.9
+Tonga,72.5,62.9
+Kuwait,73.8,59.6
+Greece,81.2,58.7
+Spain,82.1,58.7
+"United States of America",78.1,58.4
+Hungary,73.8,56.9
+Estonia,74.9,56.7
+"New Zealand",81.3,56.6
+Turkey,73.9,56.4
+Italy,82.2,56.2
+Sweden,82.5,56.2
+Australia,81.8,55.9
+Canada,81.7,55.9
+Denmark,79.3,55.8
+Czechia,76.8,55.7
+Chile,79.4,55.6
+"United Kingdom of Great Britain and Northern Ireland",80.8,55.4
+Lebanon,74.2,55.3
+"Saudi Arabia",73.5,55.3
+Argentina,75.2,55
+Israel,81.3,55
+Libya,72.5,54.8
+Belarus,69.9,54.7
+Bulgaria,72.8,54.5
+"Venezuela (Bolivarian Republic of)",73.4,54.5
+Netherlands,81.1,54
+"United Arab Emirates",75.7,53.8
+Ireland,80.2,53.7
+Poland,75.6,53.7
+"Russian Federation",67.8,53.3
+Cyprus,79.7,53.2
+Jordan,73,53
+Bahamas,74.3,52.9
+"The former Yugoslav republic of Macedonia",74.1,52.9
+Uruguay,76.1,52.9
+Croatia,76.1,52.4
+Finland,80.7,52.3
+Romania,74.1,52.2
+Slovenia,79.7,52.2
+Serbia,74,52.1
+France,82.2,52
+Germany,81.2,52
+Slovakia,74.8,51.8
+Bahrain,75.7,51.7
+Mexico,75.7,51.4
+Switzerland,82.3,51.4
+Latvia,73.7,51.3
+Iceland,82.4,51.1
+Belgium,80.7,50.9
+Ukraine,69.9,50.9
+Norway,81.8,50.8
+Fiji,68.7,50.6
+Montenegro,74.5,50.5
+Suriname,70.1,50.2
+Colombia,73.3,49.5
+Cuba,78,49.5
+Egypt,71.5,49.3
+Panama,76.5,49.3
+Lithuania,72.8,49.2
+Albania,75.2,49.1
+"Bosnia and Herzegovina",76,49
+Algeria,73.6,48.7
+"Iran (Islamic Republic of)",73.9,48.6
+Iraq,70.4,48.6
+Morocco,72.2,48.6
+Austria,81.5,48.3
+Tunisia,74.4,48.3
+"Dominican Republic",72.3,48.1
+Luxembourg,80.8,47.8
+Georgia,73.5,47.7
+"Syrian Arab Republic",70.8,47.3
+Brazil,73.4,47.1
+"Costa Rica",78.6,46.7
+Barbados,74.4,46
+Jamaica,74.3,45.4
+"El Salvador",71.7,45.3
+Kazakhstan,66.8,45.2
+Peru,73.7,44.9
+"Bolivia (Plurinational State of)",67.7,44.8
+Oman,74.8,44.8
+Armenia,73.4,44.7
+Vanuatu,71.4,44.3
+"Republic of Moldova",70,43.9
+Azerbaijan,70.7,43.8
+Portugal,80,43.6
+Ecuador,74.7,43.3
+Nicaragua,73.4,42.7
+"Saint Vincent and the Grenadines",73.5,42
+"Papua New Guinea",61.7,40.8
+Guatemala,71.7,40.4
+Grenada,73.3,40.2
+Mongolia,65.9,39.8
+Honduras,73,39.7
+"Saint Lucia",73.6,39.6
+Paraguay,73.1,39.5
+Haiti,59.9,39.3
+"Solomon Islands",67.7,39.2
+"Antigua and Barbuda",75.1,38.4
+"South Africa",57.5,38.2
+Turkmenistan,64.6,38.1
+Belize,69.3,37.7
+"Trinidad and Tobago",71.1,37.7
+Guyana,65.6,36.4
+Kyrgyzstan,69.1,35.1
+Uzbekistan,68,34.8
+Yemen,63.9,33.5
+Tajikistan,66.7,33.1
+Botswana,56,32.2
+"Brunei Darussalam",76.5,29.7
+Malaysia,73.8,29.2
+Gabon,62.2,28.8
+Seychelles,72.4,28.4
+Namibia,60.4,28.2
+Djibouti,60.8,26.2
+Mauritius,72.7,26
+Singapore,81.5,25.9
+"Democratic People's Republic of Korea",69.2,25.6
+Japan,82.5,25.6
+Swaziland,51.3,25.5
+Lesotho,48.8,25.2
+Zimbabwe,50.5,25.1
+"Cabo Verde",72.5,24.4
+Cameroon,54,23.6
+"Republic of Korea",80.5,23.2
+Mauritania,62.8,22.5
+China,74.3,21.8
+Ghana,60.9,21.7
+Thailand,73.1,21.6
+"CÃ´te d'Ivoire",50.4,21.3
+Congo,59,20.9
+"Sao Tome and Principe",65.2,20.8
+Gambia,59.5,20.3
+Indonesia,67.6,20
+Liberia,57.5,20
+Nigeria,51.4,19.8
+Benin,57.6,19.6
+Guinea-Bissau,55.4,19.4
+Maldives,75.5,19.3
+Philippines,67.6,19.2
+Somalia,53.3,18.7
+Senegal,62.6,18.4
+Comoros,61.6,18.3
+Pakistan,64.5,18.3
+"Sierra Leone",46.1,18.3
+Angola,49,18
+Togo,56.7,18
+"Equatorial Guinea",55.3,17.9
+Bhutan,66.2,17.6
+Guinea,56,17.5
+Zambia,53.9,17.5
+"Sri Lanka",73.4,17.3
+"United Republic of Tanzania",56,17.3
+Mali,54.9,17.2
+"Central African Republic",48.5,17.1
+Myanmar,64.2,17.1
+Malawi,49.9,16.8
+Niger,57,16.4
+Chad,50.4,16.3
+Mozambique,53.4,16.1
+"Democratic Republic of the Congo",55.7,15.8
+Kenya,57.5,15.6
+Afghanistan,58.2,15.5
+"Burkina Faso",55.6,15.5
+Uganda,55.7,15.5
+Cambodia,64.3,15.4
+Burundi,55.5,15.3
+Eritrea,60.7,15.2
+Nepal,66.5,15.2
+Ethiopia,59.1,14.8
+India,65.4,14.8
+Madagascar,62.7,14.8
+Rwanda,59.3,14.7
+Timor-Leste,64.8,14.6
+"Lao People's Democratic Republic",62.4,14.4
+Bangladesh,69.3,12.9
+"Viet Nam",74.8,11.2
