@@ -8,7 +8,7 @@
 
 ### Background and Data Information
 
-This is a sample project done with world life expectancy data. The original data can be populated into a table using an SQL script called 'WorldLifeExpectancyScript', which can be found in the 'Resources' folder within this repo. The original data was downloaded as a .csv file (also located in the 'Resources' folder under the name 'WorldLifeExpectancy.csv'). The script and the data itself was provided by [AnalystBuilder.com](https://www.analystbuilder.com/).
+This is a sample project done with world life expectancy data. The original data can be populated into a table using an SQL script called 'WorldLifeExpectancyScript', which can be found in the 'Resources' folder within this repo. The original data was downloaded as a .csv file (also located in the 'Resources' folder under the name 'WorldLifeExpectancy.csv'). The script and the data itself were provided by [AnalystBuilder.com](https://www.analystbuilder.com/).
 
 The project is intended to showcase SQL skills regarding data cleaning and some exploratory data analysis.
 
@@ -27,7 +27,7 @@ The SQL code for the data cleaning queries is located in the main directory of t
 
 - Identifying rows with blank or null data for the crucial 'life expectancy' column and populating those rows with a value that is the average of the preceding and following years.
 
-- Lastly, countries that had a value of '0' for life expectancy were removed as they all corresponded with tiny countries with which no other data was availble.
+- Lastly, countries that had a value of '0' for life expectancy were removed as they all corresponded with tiny countries with which no other data was available.
 
 The resulting table was now ready for exploratory data analysis to gain some more valuable insights from this data.
 #
@@ -36,12 +36,12 @@ The resulting table was now ready for exploratory data analysis to gain some mor
 
 In this phase of the project, various information was gleamed using a variety of SQL queries. Some samples of the outputs from these queries can be found within this ReadMe below. Additionally, the full table results for the various queries used can be found in the 'eda_outputs' folder of this repo.
 
-1. The first analysis was to identify the magnitude of improvement in life expectancy over the 15 year period that the data covers. This query returned the maximum and minimum life expectancy for each country and the difference between them which represents the improvement from 2007 to 2022. A sample of the results can be seen in table below which shows the countries which saw the greatest increase in life expectancy.
+1. The first analysis was to identify the magnitude of improvement in life expectancy over the 15-year period that the data covers. This query returned the maximum and minimum life expectancy for each country and the difference between them which represents the improvement from 2007 to 2022. A sample of the results can be seen in table below which shows the countries which saw the greatest increase in life expectancy.
 ![Output 1](Images/life_expectancy_min_max_difference.png)
 
 
 
-2. Analysis was done to create a two-column table showing the world's overall average life expectancy broken down by year. This table shows a steady increase in world life expectancy as an global average.
+2. Analysis was done to create a two-column table showing the world's overall average life expectancy broken down by year. This table shows a steady increase in world life expectancy as a global average.
 
     ![Output 2](Images/life_expectancy_world_yearly_average.png)
 
@@ -49,7 +49,7 @@ In this phase of the project, various information was gleamed using a variety of
 
     ![Output 3](Images/life_expectancy_vs_avg_GDP.png)
 
-4. Following the findings in step 3 of the exploratory data analysis, the next goal was to obtain a count of low GDP countries vs high GDP countries and compare the average life expectancy. The countries were split on the arbitrary number of 1500 for GDP as that landed somewhere near the middle. This was acheived using CASE statements in the queries. This query also excludes the values of of '0' for GDP as many countries had incomplete data. The following is the result:
+4. Following the findings in step 3 of the exploratory data analysis, the next goal was to obtain a count of low GDP countries vs high GDP countries and compare the average life expectancy. The countries were split on the arbitrary number of 1500 for GDP as that landed somewhere near the middle. This was achieved using CASE statements in the queries. This query also excludes the values of '0' for GDP as many countries had incomplete data. The following is the result:
 
     ![Output 4](Images/life_expectancy_high_vs_low_GDP.png)
 
